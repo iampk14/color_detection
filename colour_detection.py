@@ -1,8 +1,8 @@
 import cv2
 import pandas as pd
 
-img_path = r"C:\Users\prasa\PycharmProjects\pythonProject\nature.jpg"
-csv_path = r"C:\Users\prasa\PycharmProjects\pythonProject\colors.csv"
+img_path = r"nature.jpg"
+csv_path = r"colors.csv"
 # READING THE CSV FILE
 index = ['color', 'color_name', 'hex', 'R', 'G', 'B']
 df = pd.read_csv(csv_path, names=index, header=None)
